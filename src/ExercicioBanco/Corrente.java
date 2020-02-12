@@ -6,7 +6,7 @@ public class Corrente extends Conta {
     }
 
     public Cliente getCliente() {
-        return cliente;
+        return Cliente;
     }
 
     public double getCheque() {
@@ -14,8 +14,14 @@ public class Corrente extends Conta {
     }
 
     private double saldo;
-    private Cliente cliente;
+    private Cliente Cliente;
     private double cheque;
+
+    public Corrente(double saldo, Cliente Cliente) {
+        this.saldo= saldo;
+        this.Cliente=Cliente;
+
+    }
 
     public void recolherjuros(double dias) {
         dias = saldo + (saldo*1.2/100);
