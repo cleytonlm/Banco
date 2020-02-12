@@ -6,6 +6,7 @@ public class Cliente {
     private String cpf;
     private String rg;
 
+
     public Cliente(int numcliente , String nome, String cpf ,String rg) {
         this.numcliente = numcliente;
         this.nome = nome;

@@ -11,8 +11,8 @@ public class main {
         sabrina.setCpf("321069785");
         System.out.println(sabrina.getCpf());
 
-        Corrente corrente = new Corrente(200,sabrina);
-        corrente.saque(1000);
+        Corrente corrente = new Corrente (200,sabrina);
+        corrente.saque(10);
 
 
 
@@ -35,3 +35,4 @@ public class main {
     }
 }
 
+;
